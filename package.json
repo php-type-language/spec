@@ -11,7 +11,7 @@
     },
     "scripts": {
         "test": "npm run test:format && npm run test:build",
-        "test:build": "spec-md --metadata spec/metadata.json spec/PHPTL.md > /dev/null",
+        "test:build": "spec-md --metadata spec/metadata.json spec/PHPTypeLanguage.md > /dev/null",
         "build": "build.sh",
         "watch": "nodemon -e json,md --exec \"npm run build\""
     },

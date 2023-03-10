@@ -94,8 +94,6 @@ Note: This is an example of a non-normative note.
 
 # [Language](Section%202%20--%20Language.md)
 
-# [Type System](Section%203%20--%20Type%20System.md)
-
 # [Appendix: Notation Conventions](Appendix%20A%20--%20Notation%20Conventions.md)
 
 # [Appendix: Grammar Summary](Appendix%20B%20--%20Grammar%20Summary.md)
