@@ -1,0 +1,22 @@
+{
+    "name": "php-type-language-spec",
+    "private": true,
+    "contributors": [
+        "Nesmeyanov Kirill <nesk@xakep.ru> (https://nesk.me/)"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/php-type-language/spec.git"
+    },
+    "scripts": {
+        "test": "npm run test:format && npm run test:build",
+        "test:build": "spec-md --metadata spec/metadata.json spec/PHPTL.md > /dev/null",
+        "build": "build.sh",
+        "watch": "nodemon -e json,md --exec \"npm run build\""
+    },
+    "devDependencies": {
+        "nodemon": "^2.0",
+        "spec-md": "^3.1"
+    }
+}
